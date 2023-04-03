@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .regblock{
+        border:1px solid;
+        width:600px;
+        margin:10px auto;
+        padding:10px;
+        background-color: aquamarine;
+    }
+    ul{
+        margin:0;
+        padding:0;
+    }
+    li{
+        list-style:none;
+        padding:5px;
+        margin:5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="regblock">
+        <h2>Student Registration Page</h2>
+        <ul>
+            <li>
+                <input type="text"name="username" maxlength="8" placeholder="Enter the User Name">
+            </li>
+            <li>
+                <label for="accId">User Account</label>
+                <input type="text"name="accId">
+            </li>
+            <li>
+                <label for="accpwd">User Account Password </label>
+                <input type="text"name="accpwd"maxlength="8">
+            </li>
+            <li>
+                User Gender
+                <input type="radio"name="gender">Male
+                <input type="radio"name="gender">Female
+            </li>
+            <li>
+                Langugage
+                <input type="checkbox">English
+                <input type="checkbox">Hindi
+                <input type="checkbox">Telgu
+            </li>
+            <li>
+                Country name:
+                <select>
+                    <option>kenya</option>
+                    <optgroup label="Asisa Countries">
+                        <option>India</option>
+                        <option>China</option>
+                    </optgroup>
+                </select>
+
+            </li>
+            <li>
+                Tell about yourself
+                <textarea="id="cols="70"row="10"maxlength="300"></textarea>
+            </li>
+            <li>
+                <input type="button"value="Register">
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>
